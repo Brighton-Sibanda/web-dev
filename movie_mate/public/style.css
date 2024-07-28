@@ -1,0 +1,29 @@
+
+/* Main */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding-bottom: 50px; /* Adjust this value based on the height of your footer */
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text color */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures footer stays on top of other content */
+}
+
+.footer a.nav-link {
+    color: #d1d1d1; /* Light grey for links */
+    transition: color 0.2s;
+}
+
+.footer a.nav-link:hover {
+    color: #ffffff; /* White on hover */
+    text-decoration: none;
+}
