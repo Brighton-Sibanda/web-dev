@@ -8,6 +8,7 @@ body, html {
 
 /*Home Styling*/
 
+
 /*ChatBot Styling*/
 
 @media (max-width: 768px) {
@@ -113,6 +114,7 @@ body, html {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 10vh;
     z-index: 1000; /* Ensures footer stays on top of other content */
 }
 

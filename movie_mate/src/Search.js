@@ -5,7 +5,7 @@ import React from 'react';
 function Search() {
     return (
         <div>
-            <p>HOME PAGE</p>
+            <p>SEARCH RESULTS PAGE</p>
         </div>
     );
 }
