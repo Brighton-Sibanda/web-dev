@@ -1,10 +1,35 @@
 
-/* Main */
+/* Main Stuff */
 body, html {
     height: 100%;
     margin: 0;
     padding-bottom: 50px; /* Adjust this value based on the height of your footer */
 }
+
+/*Home Styling*/
+
+/*ChatBot Styling*/
+
+@media (max-width: 768px) {
+    .chatbot-card {
+      height: 90vh; /* Larger percentage on smaller screens */
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .chatbot-card {
+      height: 80vh; /* Standard height on larger screens */
+    }
+  }
+
+/*Settings Styling*/
+
+/*Favorites Styling*/
+
+/*Search Styling*/
+
+/*Movie page Styling*/
+
 
 /* Footer Styling */
 .footer {

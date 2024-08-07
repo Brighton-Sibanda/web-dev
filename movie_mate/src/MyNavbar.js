@@ -23,10 +23,16 @@ function MyNavbar() {
                        <Nav.Link>Home</Nav.Link>
                    </LinkContainer>
                    <LinkContainer to="/about">
-                       <Nav.Link>About Us</Nav.Link>
+                       <Nav.Link>About</Nav.Link>
                    </LinkContainer>
                    <LinkContainer to="/chatbot">
                        <Nav.Link>Chat Bot</Nav.Link>
+                   </LinkContainer>
+                   <LinkContainer to="/favorites">
+                       <Nav.Link>Starred</Nav.Link>
+                   </LinkContainer>
+                   <LinkContainer to="/settings">
+                       <Nav.Link>Settings</Nav.Link>
                    </LinkContainer>
                </Nav>
            </Navbar.Collapse>
