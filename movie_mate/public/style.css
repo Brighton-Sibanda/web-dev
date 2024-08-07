@@ -23,6 +23,79 @@ body, html {
   }
 
 /*Settings Styling*/
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.setting-item {
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setting-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.setting-button, .setting-select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+}
+
+.setting-button:hover {
+    background-color: #e2e2e2;
+}
+
+.setting-select {
+    width: 50%;
+}
+
+.navigation-guide {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.body.light {
+    background-color: #fff;
+    color: #333;
+}
+
+.body.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+
+@media (max-width: 600px) {
+    .setting-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .setting-label {
+        margin-bottom: 5px;
+    }
+
+    .setting-select {
+        width: 100%;
+    }
+}
+
 
 /*Favorites Styling*/
 

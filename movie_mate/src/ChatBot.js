@@ -29,8 +29,8 @@ function ChatBot() {
             setMessages(prevMessages => [...prevMessages, botMessage]);
         } catch (error) {
             console.error('Failed to fetch response:', error);
-            // Fallback message if the API call fails
-            const errorMessage = { text: "Sorry, I'm having trouble connecting right now. Please try again later!", from: 'bot' };
+            // Fallback message if the API call fails - most likely due to the fact that I havent updated my key there
+            const errorMessage = { text: "Sorry, The API key hasnt been updated here. Please try again later or contact Brighton!", from: 'bot' };
             setMessages(prevMessages => [...prevMessages, errorMessage]);
         }
     };

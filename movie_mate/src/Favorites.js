@@ -1,4 +1,4 @@
-// Home.js
+// Favorites.js
 import React from 'react';
 
 

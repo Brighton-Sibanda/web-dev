@@ -1,4 +1,4 @@
-// Home.js
+// About.js
 import React from 'react';
 
 

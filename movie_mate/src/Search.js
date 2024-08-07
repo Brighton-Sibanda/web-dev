@@ -1,4 +1,4 @@
-// Home.js
+// Movie search results page.js
 import React from 'react';
 
 
